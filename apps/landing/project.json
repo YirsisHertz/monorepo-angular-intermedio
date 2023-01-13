@@ -16,7 +16,10 @@
         "tsConfig": "apps/landing/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
         "assets": ["apps/landing/src/favicon.ico", "apps/landing/src/assets"],
-        "styles": ["apps/landing/src/styles.scss"],
+        "styles": [
+          "apps/landing/src/styles.scss",
+          "node_modules/bootstrap-icons/font/bootstrap-icons.css"
+        ],
         "scripts": []
       },
       "configurations": {
