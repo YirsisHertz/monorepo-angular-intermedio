@@ -11,8 +11,9 @@ export const appRoutes: Route[] = [
     loadChildren: () =>
       import('./pages/pages.module').then((m) => m.PagesModule),
   },
-  // {
-  //   path: '**',
-  //   component: null,
-  // },
+  {
+    path: '**',
+    loadChildren: () =>
+      import('@ainter/not-found').then((m) => m.NotFoundModule),
+  },
 ];
