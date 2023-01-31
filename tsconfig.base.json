@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@ainter/not-found": ["libs/not-found/src/index.ts"],
-      "@ainter/shared/ui": ["libs/shared/ui/src/index.ts"]
+      "@ainter/shared/ui": ["libs/shared/ui/src/index.ts"],
+      "@ainter/storybook-shared": ["libs/storybook-shared/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
