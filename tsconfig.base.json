@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@ainter/not-found": ["libs/not-found/src/index.ts"]
+      "@ainter/not-found": ["libs/not-found/src/index.ts"],
+      "@ainter/shared/ui": ["libs/shared/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
