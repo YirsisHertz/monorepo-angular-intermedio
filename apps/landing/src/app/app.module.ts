@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { SharedUiModule } from '@ainter/shared/ui';
+
 import { LayoutModule } from './layout/layout.module';
 
 import { AppComponent } from './app.component';
@@ -17,7 +19,7 @@ import { LevelComponent } from './components/level/level.component';
     TopicsComponent,
     LevelComponent,
   ],
-  imports: [BrowserModule, LayoutModule],
+  imports: [BrowserModule, LayoutModule, SharedUiModule],
   providers: [],
   bootstrap: [AppComponent],
 })
